@@ -1,0 +1,47 @@
+/* Override root variables */
+:root {
+  --primary-50: #fcfaf3 !important;
+  --primary-100: #fcfaf3 !important;
+  --primary-200: #f5f0e8 !important;
+  --gray-50: #fcfaf3 !important;
+  --gray-100: #f5f0e8 !important;
+  --gray-200: #ede7de !important;
+}
+
+/* Main background */
+body, html {
+  background-color: #fcfaf3 !important;
+}
+
+/* Sidebar styling */
+.sidebar, 
+[class*="sidebar"],
+nav[class*="sidebar"] {
+  background-color: #f5f0e8 !important;
+}
+
+/* Chat area background */
+.chat-container,
+.main-content,
+[class*="chat"],
+[class*="messages"] {
+  background-color: #fcfaf3 !important;
+}
+
+/* Message bubbles */
+.message {
+  background-color: #ffffff !important;
+  border: 1px solid #e5e5e5 !important;
+}
+
+/* Input areas */
+input, textarea, select {
+  background-color: #ffffff !important;
+  border-color: #e5e5e5 !important;
+}
+
+/* Cards and panels */
+.card, .panel, [class*="card"], [class*="panel"] {
+  background-color: #ffffff !important;
+  border-color: #e5e5e5 !important;
+}
