@@ -15,3 +15,4 @@ Open WebUI + Ollama setup for chat.varyon.ai
 - Modify URLs and ports as needed
 - Test locally before deploying
 Last updated: Thu Aug 28 02:02:40 EST 2025
+Fixed Ollama port conflict: Thu Aug 28 02:05:43 EST 2025
