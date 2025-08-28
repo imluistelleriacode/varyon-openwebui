@@ -1,16 +1,26 @@
+/* Override root variables */
+:root {
+  --primary-50: #fdfaf2 !important;
+  --primary-100: #fdfaf2 !important;
+  --primary-200: #f5f0e8 !important;
+  --gray-50: #fdfaf2 !important;
+  --gray-100: #f5f0e8 !important;
+  --gray-200: #ede7de !important;
+}
+
 /* Main app background - target the actual root container */
 .app, .dark, [data-theme], #app {
-  background-color: #fcfaf3 !important;
+  background-color: #fdfaf2 !important;
 }
 
 /* Main content area background */
 main, .main, [class*="main-content"], .flex.flex-col.flex-1 {
-  background-color: #fcfaf3 !important;
+  background-color: #fdfaf2 !important;
 }
 
 /* Chat messages container */
 .messages, [class*="messages"], .chat-messages, .overflow-y-auto {
-  background-color: #fcfaf3 !important;
+  background-color: #fdfaf2 !important;
 }
 
 /* Sidebar - more specific targeting */
@@ -20,25 +30,12 @@ aside, .sidebar, nav, [class*="sidebar"], .w-60, .w-64 {
 
 /* Body and html override */
 body, html {
-  background-color: #fcfaf3 !important;
+  background-color: #fdfaf2 !important;
 }
 
 /* Target all divs that might be containers */
 div[class*="bg-"], div[class*="dark"], .bg-white, .bg-gray-50, .bg-gray-100 {
-  background-color: #fcfaf3 !important;
-}/* Override root variables */
-:root {
-  --primary-50: #fcfaf3 !important;
-  --primary-100: #fcfaf3 !important;
-  --primary-200: #f5f0e8 !important;
-  --gray-50: #fcfaf3 !important;
-  --gray-100: #f5f0e8 !important;
-  --gray-200: #ede7de !important;
-}
-
-/* Main background */
-body, html {
-  background-color: #fcfaf3 !important;
+  background-color: #fdfaf2 !important;
 }
 
 /* Sidebar styling */
@@ -53,7 +50,7 @@ nav[class*="sidebar"] {
 .main-content,
 [class*="chat"],
 [class*="messages"] {
-  background-color: #fcfaf3 !important;
+  background-color: #fdfaf2 !important;
 }
 
 /* Message bubbles */
