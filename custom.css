@@ -1,4 +1,32 @@
-/* Override root variables */
+/* Main app background - target the actual root container */
+.app, .dark, [data-theme], #app {
+  background-color: #fcfaf3 !important;
+}
+
+/* Main content area background */
+main, .main, [class*="main-content"], .flex.flex-col.flex-1 {
+  background-color: #fcfaf3 !important;
+}
+
+/* Chat messages container */
+.messages, [class*="messages"], .chat-messages, .overflow-y-auto {
+  background-color: #fcfaf3 !important;
+}
+
+/* Sidebar - more specific targeting */
+aside, .sidebar, nav, [class*="sidebar"], .w-60, .w-64 {
+  background-color: #f5f0e8 !important;
+}
+
+/* Body and html override */
+body, html {
+  background-color: #fcfaf3 !important;
+}
+
+/* Target all divs that might be containers */
+div[class*="bg-"], div[class*="dark"], .bg-white, .bg-gray-50, .bg-gray-100 {
+  background-color: #fcfaf3 !important;
+}/* Override root variables */
 :root {
   --primary-50: #fcfaf3 !important;
   --primary-100: #fcfaf3 !important;
