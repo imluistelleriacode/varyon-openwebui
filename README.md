@@ -14,3 +14,4 @@ Open WebUI + Ollama setup for chat.varyon.ai
 - Copy configuration files to your local environment
 - Modify URLs and ports as needed
 - Test locally before deploying
+Last updated: Thu Aug 28 02:02:40 EST 2025
